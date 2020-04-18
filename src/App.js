@@ -6,14 +6,17 @@ import './custom/js/all.js';
 import Header from './components/Header';
 import DisplayForex from './components/DisplayForex';
 import BidsBlock from './components/Bids';
+import Registration from './components/Registration';
+import {BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <React.Fragment>
+    <BrowserRouter>
       <Header />
-      <DisplayForex />
-      <BidsBlock />
-    </React.Fragment>
+      <Route path="/index" component={DisplayForex} />
+      <Route path="/index" component={BidsBlock} />
+      <Route path="/register" component={Registration} />
+    </BrowserRouter>
   );
 }
 

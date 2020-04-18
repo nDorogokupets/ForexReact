@@ -6,6 +6,9 @@
     font-family: "RegularNova";
     src: url("../fonts/12093.ttf");
 }
+a {
+	text-decoration: none;
+}
 html {
 	background-color: #0f1825;
 	background-image: url("../images/background.jpg");
