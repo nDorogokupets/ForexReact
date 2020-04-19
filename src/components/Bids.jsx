@@ -4,7 +4,7 @@ import BidsList from './UnderComponents/BidsList';
 
 const BidsBlock = () => {
     return (
-        <div class="bids-block">
+        <div className="bids-block">
             <BidsList />
             <BidStart />
         </div>

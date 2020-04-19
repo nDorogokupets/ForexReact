@@ -1,6 +1,7 @@
 import React from 'react';
+import CanvasGraph from './CanvasGraph';
 
-const Graffic = () => {
+const Graffic = (props) => {
     return (
         <div className="graffic">
             <ul className="pairs">
@@ -33,7 +34,7 @@ const Graffic = () => {
                     </div>
                 </li>
             </ul>
-            <div className="graffic-block"></div>
+            <CanvasGraph list={props.list}/>
         </div>
     )
 }

@@ -6,7 +6,7 @@ const BidStart = () => {
 			<div className="input">
 				<div className="summ">
 					<i className="fas fa-dollar-sign input-icon"></i>
-					<input type="text" name="bid-value" value="0" />
+					<input type="text" name="bid-value"/>
 					<div className="calc">
 						<div className="up"><i className="fas fa-chevron-up"></i></div>
 						<div className="down"><i className="fas fa-chevron-down"></i></div>
@@ -14,7 +14,7 @@ const BidStart = () => {
 				</div>
 				<div className="time">
 					<i className="far fa-clock input-icon"></i>
-					<input type="text" name="bid-value" value="0" />
+					<input type="text" name="bid-value" />
 					<div className="calc">
 						<div className="up"><i className="fas fa-chevron-up"></i></div>
 						<div className="down"><i className="fas fa-chevron-down"></i></div>

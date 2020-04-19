@@ -2,11 +2,11 @@ import React from 'react';
 import Graffic from './UnderComponents/Graffic';
 import Pairs from './UnderComponents/Pairs';
 
-const DisplayForex = () => {
+const DisplayForex = (props) => {
     return (
         <div className="display-forex">
-            <Graffic />
-            <Pairs />
+            <Graffic list={props.list}/>
+            <Pairs list={props.list}/>
         </div>
     )
 }
